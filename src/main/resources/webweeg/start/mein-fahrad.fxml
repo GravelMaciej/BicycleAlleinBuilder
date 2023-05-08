@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="webweeg.start.controller.MeinFahrad">
+   <bottom>
+      <Button alignment="CENTER" defaultButton="true" mnemonicParsing="false" onAction="#zurück" prefHeight="160.0" prefWidth="760.0" text="Zurück zum  Gescheft" underline="true" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </BorderPane.margin>
+      </Button>
+   </bottom>
+   <top>
+      <Label alignment="CENTER" prefHeight="160.0" prefWidth="760.0" text="Du kanst Selbber Deine Fahrad bauen" underline="true" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="36.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </BorderPane.margin>
+      </Label>
+   </top>
+   <center>
+      <VBox prefHeight="400.0" prefWidth="400.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#schowRahmen" onMouseClicked="#newKundeFenster" prefHeight="40.0" prefWidth="360.0" text="Rahmen">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Times New Roman Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#schowAntrieb" prefHeight="40.0" prefWidth="360.0" text="Antrieb">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Times New Roman Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#schowLaufrad" prefHeight="40.0" prefWidth="360.0" text="Laufrad">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Times New Roman Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#schowBremsen" prefHeight="40.0" prefWidth="360.0" text="Bremsen">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Times New Roman Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#schowAndare" prefHeight="40.0" prefWidth="360.0" text="Andare Komponente">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Times New Roman Bold" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </center>
+   <left>
+      <Button minWidth="20.0" mnemonicParsing="false" prefHeight="360.0" prefWidth="160.0" text="Alle Komponente" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </BorderPane.margin>
+         <font>
+            <Font name="Times New Roman Bold" size="20.0" />
+         </font>
+      </Button>
+   </left>
+   <right>
+      <Button mnemonicParsing="false" prefHeight="360.0" prefWidth="160.0" text="Mein Fahrad" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </BorderPane.margin>
+         <font>
+            <Font name="Times New Roman Bold" size="20.0" />
+         </font>
+      </Button>
+   </right>
+</BorderPane>

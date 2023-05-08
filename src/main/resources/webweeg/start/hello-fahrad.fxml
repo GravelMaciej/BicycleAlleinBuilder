@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="800.0" stylesheets="@fahradStyle.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="webweeg.start.controller.HelloFahradController">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="600.0" spacing="10.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+         <children>
+            <Button fx:id="fahradLager" alignment="CENTER" contentDisplay="CENTER" defaultButton="true" mnemonicParsing="true" onAction="#openLager" prefHeight="110.0" prefWidth="580.0" text="Unsere Lager anschauen" textAlignment="CENTER" textFill="#044478a3" textOverrun="CENTER_ELLIPSIS" underline="true" VBox.vgrow="SOMETIMES">
+               <font>
+                  <Font name="Times New Roman" size="32.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" defaultButton="true" mnemonicParsing="false" onAction="#NeuKomponenteDazu" prefHeight="110.0" prefWidth="580.0" text="Neue Komponente Speichern" textAlignment="CENTER" textFill="#044478bf" underline="true">
+               <font>
+                  <Font name="Times New Roman" size="32.0" />
+               </font>
+            </Button>
+            <Button accessibleRole="HYPERLINK" alignment="CENTER" defaultButton="true" mnemonicParsing="false" onAction="#fahradBauen" prefHeight="110.0" prefWidth="580.0" text="Fahrad selber bauen" textFill="#044478bf" underline="true">
+               <font>
+                  <Font name="Times New Roman" size="32.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="300.0" fitWidth="520.0" pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </ImageView>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>
